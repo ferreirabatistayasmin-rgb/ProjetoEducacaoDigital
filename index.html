@@ -1,14 +1,195 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ProjetoEducacaoDigital</title>
+    <title>Drive Zone - Blog de Jogos de Carro</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f1f3f6;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #111827, #e63946);
+            color: white;
+            text-align: center;
+            padding: 45px 20px;
+        }
+
+        header h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 18px;
+            color: #f5f5f5;
+        }
+
+        nav {
+            background-color: #111827;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #e63946;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .post {
+            background-color: white;
+            margin-bottom: 30px;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+        }
+
+        .post h2 {
+            color: #e63946;
+            margin-bottom: 15px;
+            font-size: 28px;
+        }
+
+        .post .data {
+            color: #777;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+
+        .post p {
+            margin-bottom: 15px;
+        }
+
+        .destaque {
+            background-color: #111827;
+            color: white;
+            padding: 20px;
+            border-left: 5px solid #e63946;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        footer {
+            background-color: #111827;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-top: 50px;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 32px;
+            }
+
+            .post {
+                padding: 20px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 5px 8px;
+            }
+        }
+    </style>
 </head>
+
 <body>
-   <h1>Meu Projeto de Educação Digital</h1>
-<p>Vou compartilhar conhecimentos sobre tecnologia</p>
-<h2>Meu primeiro post</h2>
-<p>Boas-vindas ao meu novo blog! Aqui vou compartilhar dicas de programação e curiosidades da área de tecnologia.</p>
-<p>Por: Yasmin'</p> 
+
+    <header>
+        <h1>🏎️ Drive Zone</h1>
+        <p>O seu blog sobre jogos de carro, velocidade e adrenalina!</p>
+    </header>
+
+    <nav>
+        <a href="#">Início</a>
+        <a href="#post1">Jogos</a>
+        <a href="#post2">Dicas</a>
+        <a href="#sobre">Sobre</a>
+    </nav>
+
+    <main>
+
+        <article class="post" id="post1">
+            <h2>🏁 Os melhores jogos de carro para acelerar</h2>
+            <p class="data">Publicado em 11 de agosto de 2026</p>
+
+            <p>
+                Os jogos de corrida são perfeitos para quem gosta de velocidade,
+                carros potentes e muita adrenalina. Existem diversos estilos,
+                desde simuladores realistas até corridas totalmente focadas
+                na diversão.
+            </p>
+
+            <p>
+                Em jogos de carro, você pode pilotar veículos esportivos,
+                participar de campeonatos, personalizar seus carros e disputar
+                corridas contra jogadores do mundo inteiro.
+            </p>
+
+            <div class="destaque">
+                <strong>💡 Dica:</strong> Experimente diferentes tipos de
+                carros e configurações para descobrir qual combinação combina
+                melhor com seu estilo de direção.
+            </div>
+        </article>
+
+        <article class="post" id="post2">
+            <h2>🚗 Como melhorar nas corridas</h2>
+            <p class="data">Publicado em 11 de agosto de 2026</p>
+
+            <p>
+                Para se tornar um piloto melhor, não basta apenas acelerar.
+                Conhecer as pistas, controlar as curvas e escolher o momento
+                certo para frear são habilidades importantes.
+            </p>
+
+            <p>
+                Também vale a pena aprender a usar o freio de maneira eficiente,
+                controlar as derrapagens e estudar os atalhos disponíveis nas
+                pistas. Com prática, suas voltas ficarão cada vez mais rápidas.
+            </p>
+
+            <div class="destaque">
+                <strong>🏆 Desafio:</strong> Escolha uma pista e tente melhorar
+                seu tempo a cada corrida. Anote seus melhores resultados e
+                acompanhe sua evolução!
+            </div>
+        </article>
+
+    </main>
+
+    <footer id="sobre">
+        <p><strong>Drive Zone</strong> — Blog de Jogos de Carro</p>
+        <p>© 2026 Todos os direitos reservados.</p>
+    </footer>
+
+</body>
 </html>
